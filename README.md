@@ -1,4 +1,4 @@
-# �️ Controle de Servomotor com Raspberry Pi Pico
+# 🤖 Controle de Servomotor com Raspberry Pi Pico
 
 Este projeto demonstra como controlar um servomotor utilizando um Raspberry Pi Pico W. O código configura um sinal PWM para mover o servomotor entre posições fixas (0°, 90°, 180°) e também realiza um movimento suave entre os limites mínimo e máximo do servo.
 
@@ -8,6 +8,13 @@ Este projeto demonstra como controlar um servomotor utilizando um Raspberry Pi P
 - **Servomotor** (compatível com PWM de 50 Hz) 🎚️
 - **Wokwi Simulator** (simulador utilizado para testes)🔌
 
+## 📝 Descrição do Projeto
+O objetivo deste projeto é controlar um servomotor conectado ao Raspberry Pi Pico utilizando sinais PWM. O código foi modularizado para facilitar a leitura e manutenção, permitindo que o servomotor execute movimentos fixos e suaves.
+
+- **Frequência PWM:** 50 Hz (período de 20 ms).
+- **Resolução PWM:** 16 bits (wrap = 65535).
+- **Duty Cycle Mínimo:** 2,5% (0°).
+- **Duty Cycle Máximo:** 12% (180°).
 
 ## 🚀 Funcionalidades do Código
 
